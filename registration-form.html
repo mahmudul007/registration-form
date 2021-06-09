@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Registration Form</h1>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend>Basic Information:</legend>
+    <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+<label for="gender">Gender:</label>
+   <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label> 
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label> <br><br>
+
+<label for="relegion">Relegion:</label>
+   <select id = "relegion" name="relegion">
+    <option value="Islam"> Islam </option> 
+        <option value="Hindu"> Hindu </option>
+            <option value="Buddha"> Buddha </option>
+                <option value="Other"> Other </option>   
+            </select>
+
+ </fieldset>
+ 
+ <fieldset>
+   <legend>Contact Information:</legend> 
+   <label for="present_adress">Present adress: </label> 
+    <input type="text" id="present_adress" name="present_adress"><br><br>
+     <label for="parmanent_adress">Present adress: </label> 
+      <input type="text" id="parmanent_adress" name="parmanent_adress"><br><br>
+      <label for ="phone"> Phone</label>
+      <input type="tel" id="phone" name="phone" ><br><br>
+      <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for ="url">Personal Website link :</label>
+        <p><a href="https://www.facebook.com/">Visit my web page</a></p>
+
+
+ </fieldset>
+   <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
